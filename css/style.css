@@ -1,0 +1,104 @@
+/* ==============================================================
+ * Project Name  : JavaScript Mind Reader
+ * Project URI   : http://kazal.me/js-mind-reader
+ * Created on    : 15 Aug, 2016
+ * Author        : Kazal Kumar
+ * Author's URI  : http://kazal.me
+ * Description   : "JavaScript Mind Reader" is a simple game made with JavaScript which can read your mind. :)
+ * Version       : 1.0
+/* ==============================================================*/
+.header-content {
+	background-color: #ededed;
+	border-bottom: 3px solid #e0e0e0;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+.title,
+.rules {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.title {
+	color: #555;
+	margin: 0;
+	font-size: 30px;
+	font-weight: 600;
+}
+.rules {
+	font-size: 13px;
+    color: #777;
+    text-align: center;
+    line-height: 19px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.img-list-wrapper {
+	padding: 16px;
+	border: 1px solid #ededed;
+	min-height: 240px;
+}
+#result {
+	display: none;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    border-radius: 3px;
+    padding: 5px;
+    border-bottom:  3px solid #e0e0e0;
+}
+img:not(:last-child) {
+	margin-right: 5px;
+}
+#imageListOne,
+#imageListTwo {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#imageListOne {
+	margin-bottom: 7px;
+}
+.btn-set-wrapper {
+	padding: 15px;
+	margin-top: 40px;
+	background-color: #ededed;
+    border-bottom: 3px solid #e0e0e0;
+}
+.btn-set {
+	display: inline-block;
+}
+button {
+	padding: 8px 10px;
+	background-color: #f2f2f2;
+	font-size: 15px;
+	border: 1px solid #02B33F;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #02B33F;
+	outline: none;
+	display: block;
+	width: 125px;
+}
+button:not(:last-child) {
+	margin-right: 3px;
+	margin-bottom: 8px;
+}
+.btn-disabled {
+	color: #FF5733;
+	border-color: #FF5733;
+	pointer-events: none;
+}
+#btn-three,
+#btn-four,
+#btn-five,
+#btn-six,
+#btn-seven,
+#btn-eight {
+	display: none;
+}
