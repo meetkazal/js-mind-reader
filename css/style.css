@@ -35,7 +35,7 @@
 .img-list-wrapper {
 	padding: 16px;
 	border: 1px solid #ededed;
-	min-height: 240px;
+	height: 240px;
 }
 #result {
 	display: none;
